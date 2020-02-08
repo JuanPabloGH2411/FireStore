@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "215521176714",
+    "firebase_url": "https://firestore-bd8ac.firebaseio.com",
+    "project_id": "firestore-bd8ac",
+    "storage_bucket": "firestore-bd8ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215521176714:android:0a4010f5e9a352d9fe1173",
+        "android_client_info": {
+          "package_name": "com.juanpablo.firestore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "215521176714-kms28uapgi2u3nl6e0hv0v1j3oartie2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCks-FXJzfMvPbLNDoSGOJEnhRxaQwL1L0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "215521176714-kms28uapgi2u3nl6e0hv0v1j3oartie2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
