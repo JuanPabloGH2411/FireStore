@@ -45,6 +45,27 @@
         <activity android:name=".MainActivity">
 
         </activity>
+
+
+        <service
+            android:name=".Notification.NotificationManager"
+            android:exported="false" >
+
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:value="@mipmap/ic_launcher"/>
+
+            <meta-data
+                android:name="com.google.firebase.messaging.default_notification_channel_id"
+                android:value="@string/app_name"/>
+
+
     </application>
 
 </manifest>
