@@ -79,6 +79,7 @@ class MainActivity : AppCompatActivity() {
         firebaseAuthListener=FirebaseAuth.AuthStateListener {
 
             if(it.currentUser!=null){
+                startActivity(Intent(this,ExtraActivity::class.java))
 
             }
             else{
